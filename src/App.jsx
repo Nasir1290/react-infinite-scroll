@@ -1,12 +1,10 @@
 import React from 'react'
+import ProductsList from './components/ProductsList'
 
 const App = () => {
   return (
     <div>
-      <h1 className=' text-3xl bg-red-500'>Hello</h1>
-
-      h1
-      hellow world and how does you gooooo chaloooooooooooooooo!!!!!!!!!!
+      <ProductsList/>
     </div>
   )
 }
